@@ -47,6 +47,7 @@ function displayPokemon(data) {
             <p class="text-gray-600">Base Experience: ${data.base_experience}</p>
             <div class="mt-2">Types: ${types}</div>
             <img src="${data.sprites.front_default}" alt="${data.name}" class="mx-auto mt-2">
+            
         </div>
     `;
     pokemonCard.innerHTML = html;
