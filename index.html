@@ -6,13 +6,13 @@
     <title>Dynamic Pokémon Fetcher</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-green-100 min-h-screen flex items-center justify-center p-4">
-    <div class="w-full max-w-md bg-white rounded-xl shadow-lg p-6 text-center">
-        <h1 class="text-2xl font-bold mb-4">Pokémon Fetcher</h1>
+<body class="bg-blue-100 min-h-screen flex items-center justify-center p-4">
+    <div class="w-full max-w-6xl bg-white rounded-xl shadow-lg p-8 min-h-[300px] text-center">
+        <h1 class="text-6xl font-bold mb-4">Pokémon Fetcher</h1>
         <div class="flex mb-4">
             <input id="pokemonInput" type="text" placeholder="Enter Pokémon name or ID"
-                class="flex-1 px-3 py-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-400">
-            <button id="fetchBtn" class="bg-blue-500 text-white px-4 py-2 rounded-r-md hover:bg-blue-600 transition">Search</button>
+                class="flex-1 px-4 py-3 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-400">
+            <button id="fetchBtn" class="bg-blue-500 text-white px-6 py-3 rounded-r-md hover:bg-blue-600 transition">Search</button>
         </div>
         <div id="loading" class="hidden mb-4">Loading...</div>
         <div id="pokemonCard" class="mt-4"></div>
